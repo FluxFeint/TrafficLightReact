@@ -1,12 +1,108 @@
+body {
+    background-color: white;
+    background-image: url(https://i.imgur.com/xUm3egz.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150%;
+    width: 100%;
+  }
 
-/* 
+.stick {
+    background-color: #090d1d ;
+    height: 125px;
+    width: 60px;
+    display: flex;
+    margin: auto;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+button {
+    background-color: #131127;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    transition: all 0.2s ease-in-out;
+}
+  
+  button:hover {
+    background-color: #58c463;
+  }
+  
+.traffic_light_center {
+    display: flex;
+    justify-content: center;
+}
 
-*/
+.traffic-light {
+    background:#090d1d;
+    height: 550px;
+    width: 150px;
+    margin: auto;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+
+
+.lights_red {
+    position: relative;
+    padding-top: 30px;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    margin-bottom: 35px;
+    background: #d01163;
+    border-radius: 70%;
+}
+
+/* semaforo morado #4d2772 */
+
+.lights_red_selected {
+    box-shadow: #d01163;
+    filter: blur(5px);
+}
+
+.lights_yellow {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    margin-bottom: 35px;
+    background: #ffca4f;
+    border-radius: 70%;
+}
+
+.lights_yellow_selected {
+    box-shadow: #ffca4f;
+    filter: blur(5px);
+}
+
+.lights_green {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    margin-bottom: 35px;
+    background: #6bd974;
+    border-radius: 70%;
+}
+.lights_green_selected {
+    box-shadow: #6bd974;
+    filter: blur(5px);
+}
+
+.lights_purple {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    margin-bottom: 35px;
+    background: #4d2772;
+    border-radius: 70%;
+}
+.lights_purple_selected {
+    box-shadow: #4d2772;
+    filter: blur(5px);
+}
